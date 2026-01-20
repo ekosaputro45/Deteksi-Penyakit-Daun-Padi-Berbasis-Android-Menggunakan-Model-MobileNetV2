@@ -99,7 +99,7 @@ Langkah Instalasi
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/skylark1894/Deteksi-Penyakit-Daun-Padi-Berbasis-Android-Menggunakan-Model-MobileNetV2.git
+   git clone https://github.com/ekosaputro45/Deteksi-Penyakit-Daun-Padi-Berbasis-Android-Menggunakan-Model-MobileNetV2.git
    cd Deteksi-Penyakit-Daun-Padi-Berbasis-Android-Menggunakan-Model-MobileNetV2
    ```
 
