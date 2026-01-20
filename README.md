@@ -1,4 +1,4 @@
-<img width="534" height="944" alt="home" src="https://github.com/user-attachments/assets/c2d7474a-2f58-407f-ac3b-ccfafca0e514" /> Deskripsi
+
 
 Deteksi Penyakit Daun Padi adalah aplikasi mobile berbasis Android yang membantu petani dan ahli pertanian untuk mengidentifikasi penyakit pada tanaman padi secara cepat dan akurat. Aplikasi ini menggunakan model Deep Learning MobileNetV2 yang telah dilatih untuk mendeteksi berbagai jenis penyakit daun padi melalui analisis gambar.
 
