@@ -52,7 +52,6 @@ Manajemen Akun
 - Desain material design yang elegan
 - Bottom navigation dengan FAB (Floating Action Button)
 - Smooth animations dan transitions
-- Dark mode support
 - Responsive layout
 
  Teknologi yang Digunakan
