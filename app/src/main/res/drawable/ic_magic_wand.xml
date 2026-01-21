@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Sparkles / Magic Wand Outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeWidth="1.5"
+        android:strokeColor="#9CA3AF"
+        android:pathData="M7.5,5.6L10,7 8.6,4.5L10,2 7.5,3.4 5,2 6.4,4.5 5,7zM22,2l-2.5,1.5L17,2l1.5,2.5L17,7l2.5,-1.5L22,7l-1.5,-2.5L22,2zM14.5,14L14,16h2l-0.5,-2h-1zM12,20l-1,-2h2l-1,2zM20,12l-1,2h2l-1,-2zM15.24,9.24l-1.41,1.41 3.53,3.53 1.41,-1.41 -3.53,-3.53zM12,18.5L11,20.5h2l-1,-2zM14,21l0.5,-2h-1L13,21h1zM20,17l-2,-0.5v1l2,-0.5zM3.41,8.59L2,10l2.59,1.41L6,10 3.41,8.59zM16.24,15.24l-3.53,-3.53 -1.41,1.41 3.53,3.53 1.41,-1.41zM6,12l-2.59,1.41L2,12l1.41,-1.41L6,12zM8.5,19.5l-1,-1 2,-2 1,1 -2,2zM5,11l-2,0.5v-1L5,11z"/>
+</vector>
+
+
+

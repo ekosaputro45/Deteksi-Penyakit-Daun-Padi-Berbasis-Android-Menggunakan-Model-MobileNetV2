@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DeteksiPenyakitDaunPadi" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Jangan biarkan OS melakukan auto dark/force dark. -->
+        <item name="android:forceDarkAllowed">false</item>
+
+        <item name="floatingActionButtonStyle">@style/Widget.DeteksiPenyakitDaunPadi.FloatingActionButton</item>
+    </style>
+
+    <style name="Theme.DeteksiPenyakitDaunPadi" parent="Base.Theme.DeteksiPenyakitDaunPadi" />
+
+</resources>

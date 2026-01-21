@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!--
+      Outline-only "newspaper" icon so it stays readable when ImageView tint is applied.
+      (Tint makes multi-color vectors look like solid blocks.)
+    -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.7"
+        android:strokeLineJoin="round"
+        android:pathData="M6,4.5 H18 C19.381,4.5 20.5,5.619 20.5,7 V18 C20.5,19.381 19.381,20.5 18,20.5 H6 C4.619,20.5 3.5,19.381 3.5,18 V7 C3.5,5.619 4.619,4.5 6,4.5 Z" />
+
+    <!-- left column image/headline box -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round"
+        android:pathData="M6.8,7.4 H11.2 V11.2 H6.8 Z" />
+
+    <!-- right column headline + short lines -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M13.2,7.8 H18.2" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M13.2,10.2 H17.4" />
+
+    <!-- body lines -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M6.8,13.2 H18.2" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M6.8,15.6 H18.2" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M6.8,18.0 H14.8" />
+
+</vector>

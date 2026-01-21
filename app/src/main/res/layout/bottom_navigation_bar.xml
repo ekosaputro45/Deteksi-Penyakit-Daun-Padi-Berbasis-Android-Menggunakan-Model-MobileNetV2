@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:paddingBottom="8dp"
+    android:weightSum="5">
+
+    <!-- Home -->
+    <LinearLayout
+        android:id="@+id/llNavHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivNavHome"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_home"
+            app:tint="@color/bottom_nav_inactive" />
+
+        <TextView
+            android:id="@+id/tvNavHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beranda"
+            android:textSize="11sp"
+            android:textColor="@color/bottom_nav_inactive"
+            android:layout_marginTop="4dp"
+            android:includeFontPadding="false"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- AI Cosmetologist -->
+    <LinearLayout
+        android:id="@+id/llNavCosmetologist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivNavCosmetologist"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_news"
+            app:tint="@color/bottom_nav_inactive" />
+
+        <TextView
+            android:id="@+id/tvNavCosmetologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berita"
+            android:textSize="11sp"
+            android:textColor="@color/bottom_nav_inactive"
+            android:layout_marginTop="4dp"
+            android:includeFontPadding="false"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- Placeholder for Central Action Button (FAB) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp">
+        <!-- This space is intentionally left blank for the FloatingActionButton -->
+    </LinearLayout>
+
+    <!-- History -->
+    <LinearLayout
+        android:id="@+id/llNavHistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivNavHistory"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_history"
+            app:tint="@color/bottom_nav_inactive" />
+
+        <TextView
+            android:id="@+id/tvNavHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat"
+            android:textSize="11sp"
+            android:textColor="@color/bottom_nav_inactive"
+            android:layout_marginTop="4dp"
+            android:includeFontPadding="false"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- Profile -->
+    <LinearLayout
+        android:id="@+id/llNavProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivNavProfile"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_profile"
+            app:tint="@color/bottom_nav_inactive" />
+
+        <TextView
+            android:id="@+id/tvNavProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profil"
+            android:textSize="11sp"
+            android:textColor="@color/bottom_nav_inactive"
+            android:layout_marginTop="4dp"
+            android:includeFontPadding="false"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
