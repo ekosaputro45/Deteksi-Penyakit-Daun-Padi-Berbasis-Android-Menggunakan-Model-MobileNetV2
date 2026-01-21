@@ -207,9 +207,14 @@ Aplikasi memerlukan permission berikut:
 - [ ] Integration dengan IoT sensors
 - [ ] Cloud backup untuk riwayat
 
+Link Dataset : https://www.kaggle.com/datasets/adesulastri/daun-padi-sultra-sulawesi-tenggara
+
+Link model (preprocessing) : https://drive.google.com/drive/folders/1N9BpQRkII16MrdCLodKADcuFO7dNTMag
+
+Link Video : https://m.youtube.com/watch?v=eEY4thc61tU&feature=youtu.be
 
 👤 Author
 
 Eko Saputro (23215050)
 Universitas Harkat Negeri
-Program Studi Teknik Informatika
+Program Studi S1 Teknik Informatika
